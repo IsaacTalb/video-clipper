@@ -1,0 +1,103 @@
+═══════════════════════════════════════════════════════════════════════
+               🎬 VIDEO CLIPPER - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════════════
+
+📦 INSTALLATION STATUS:
+   ✓ Python 3.13 installed
+   ✓ FFmpeg installed
+   ✓ All files created
+
+📍 LOCATION:
+   D:\video-clipper\
+
+═══════════════════════════════════════════════════════════════════════
+                    HOW TO USE - 5 SIMPLE STEPS
+═══════════════════════════════════════════════════════════════════════
+
+STEP 1: Launch the Application
+   - Double-click: launcher.bat
+   - Or run: test_setup.bat
+
+STEP 2: Select Your Video
+   - Click "Browse"
+   - Select: C:\Users\Isaac\Videos\How-to-fix-ethernet connection errors.mp4
+
+STEP 3: Create Output Folder
+   - Click "Create Folder"
+   - Default: D:\video_clips (will be created automatically)
+
+STEP 4: Add Your Clips
+   For each clip you want:
+   ┌─────────────────────────────────────────┐
+   │ Clip Title:    "Introduction"           │
+   │ Start Time:    00:15                     │
+   │ End Time:      00:45                     │
+   │ Duration:      00:30                     │
+   └─────────────────────────────────────────┘
+   - Click "+ Add to List"
+   - Repeat for each clip
+
+STEP 5: Start Clipping
+   - Click "🎬 Start Clipping" button
+   - Wait for processing to complete
+   - Clips saved as MP4 in D:\video_clips
+
+═══════════════════════════════════════════════════════════════════════
+                          TIPS & TRICKS
+═══════════════════════════════════════════════════════════════════════
+
+🕐 Preview Times
+   Use "Preview Time" button to check before adding
+   Format: mm:ss (minutes:seconds)
+
+📝 Naming Clips
+   Be descriptive: "Intro", "Problem", "Solution", "Conclusion"
+   Use underscores: "full_scren" instead of spaces
+
+⏱️  Time Formats
+   Start:  00:00 = beginning
+   End:    05:00 = 5 minutes
+   Total:  01:30 = 1 minute 30 seconds
+
+✨ Fast Processing
+   - No re-encoding (instant cuts)
+   - Multiple clips at once
+   - Original video stays intact
+
+═══════════════════════════════════════════════════════════════════════
+                         FILE REFERENCE
+═══════════════════════════════════════════════════════════════════════
+
+main.py          - Main Python application
+launcher.bat     - Double-click to launch
+test_setup.bat   - Check setup + launch
+install.bat      - Install Python & FFmpeg (if needed)
+run.bat          - Quick run script
+README.md        - Full documentation
+requirements.txt - Dependencies (none needed!)
+
+═══════════════════════════════════════════════════════════════════════
+                         SAMPLE WORKFLOW
+═══════════════════════════════════════════════════════════════════════
+
+Video: How-to-fix-ethernet connection errors.mp4
+
+Clip 1: "Introduction"      → 00:00 to 00:30
+Clip 2: "Common Issues"     → 00:30 to 02:15
+Clip 3: "Fix Steps 1-2"     → 02:15 to 04:00
+Clip 4: "Fix Steps 3-4"     → 04:00 to 05:45
+Clip 5: "Troubleshooting"   → 05:45 to 07:30
+Clip 6: "Final Solution"    → 07:30 to 09:00
+
+Output: 6 individual MP4 files in D:\video_clips
+
+═══════════════════════════════════════════════════════════════════════
+                         NEED HELP?
+═══════════════════════════════════════════════════════════════════════
+
+Read README.md for detailed instructions
+Or open test_setup.bat to verify everything works
+
+═══════════════════════════════════════════════════════════════════════
+                       MADE BY KO KO ISAAC 🦅
+═══════════════════════════════════════════════════════════════════════
